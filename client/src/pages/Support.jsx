@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Search, Download, Eye, Edit2 } from 'lucide-react'
+import { Search, Download, Eye, Edit2 } from 'lucide-react';
 import toast from 'react-hot-toast'
-import api from '../api/axios'
+import api from '../api/axios';
 import Pagination from '../components/Pagination';
 
 const priorityClass = { low: 'badge-low', medium: 'badge-medium', high: 'badge-flagged', urgent: 'badge-flagged' }
