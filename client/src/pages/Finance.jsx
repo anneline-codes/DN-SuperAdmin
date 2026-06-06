@@ -1,6 +1,6 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react';
 import { Search, Download, DollarSign, Clock, RotateCcw, TrendingUp } from 'lucide-react'
-import toast from 'react-hot-toast'
+import toast from 'react-hot-toast';
 import api from '../api/axios'
 import Pagination from '../components/Pagination'
 
