@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { Search, Download } from 'lucide-react'
-import toast from 'react-hot-toast'
-import api from '../api/axios'
+import toast from 'react-hot-toast';
+import api from '../api/axios';
 import Pagination from '../components/Pagination'
 
 export default function Bookings() {
